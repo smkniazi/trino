@@ -162,6 +162,10 @@
             <artifactId>tempto-core</artifactId>
             <exclusions>
                 <exclusion>
+                    <groupId>io.trino.hive</groupId>
+                    <artifactId>hive-apache</artifactId>
+                </exclusion>
+                <exclusion>
                     <groupId>org.apache.httpcomponents</groupId>
                     <artifactId>httpclient</artifactId>
                 </exclusion>
